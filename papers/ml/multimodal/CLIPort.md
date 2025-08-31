@@ -1,7 +1,8 @@
 # CLIPort
+[arxiv](https://arxiv.org/abs/2109.12098)
 
 ## Description
-CLIPort (Shridhar et al., 2021) is a **[vision-language-action model](Vision-Language-Action-Models) for robotic manipulation**. It combines **CLIP-style vision-language embeddings** with **transport-based manipulation policies** to execute language-conditioned pick-and-place tasks. The system enables robots to understand and execute commands like *"place the red block on the blue block"* in cluttered scenes, without task-specific training.
+CLIPort (Shridhar et al., 2021) is a **[vision-language-action model](Vision-Language-Action-Models.md) for robotic manipulation**. It combines **[[CLIP]]-style vision-language embeddings** with **transport-based manipulation policies** to execute language-conditioned pick-and-place tasks. The system enables robots to understand and execute commands like *"place the red block on the blue block"* in cluttered scenes, without task-specific training.
 
 ---
 
