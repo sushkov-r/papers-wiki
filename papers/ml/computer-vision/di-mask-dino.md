@@ -1,7 +1,7 @@
 # DI-MaskDINO
 
 ## Introduction
-**DI-MaskDINO (2024)** is a model in the DINO branch of the [DETR Family](detr-family.md) of transformer-based object detection and segmentation models. It builds upon **Mask DINO**, a unified framework for detection, instance segmentation, and panoptic segmentation, by addressing a critical issue: the **imbalance between detection and segmentation tasks in the decoder**. Through its new architectural components, DI-MaskDINO achieves **state-of-the-art accuracy** on COCO and other benchmarks, while maintaining the unified, end-to-end philosophy of the DETR lineage.
+**DI-MaskDINO (2024)** is a model in the DINO branch of the [DETR family](detr-family.md) of transformer-based object detection and segmentation models. It builds upon **Mask DINO**, a unified framework for detection, instance segmentation, and panoptic segmentation, by addressing a critical issue: the **imbalance between detection and segmentation tasks in the decoder**. Through its new architectural components, DI-MaskDINO achieves **state-of-the-art accuracy** on COCO and other benchmarks, while maintaining the unified, end-to-end philosophy of the DETR lineage.
 
 ---
 
@@ -41,3 +41,7 @@
 - Demonstrates that **task imbalance** is a bottleneck in multi-task transformer models.
 - Provides a general recipe for balancing detection vs. segmentation in shared decoders.
 - Moves DETR-style models closer to being a **universal segmentation solution** for real-world applications, including robotics, autonomous driving, and AR/VR.
+
+---
+
+For background on DETR and segmentation history, see [DETR](detr.md) and the [segmentation overview](segmentation-dnn-history.md).

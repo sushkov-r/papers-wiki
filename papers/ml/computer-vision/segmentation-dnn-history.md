@@ -71,8 +71,12 @@ Instance segmentation answers: *“Which object instance does this pixel belong 
 - **2015:** U-Net → encoder–decoder revolution  
 - **2017:** Mask R-CNN → mainstream instance segmentation  
 - **2018–2020:** PANet, YOLACT, SOLO → refinements & one-stage efficiency  
-- **2020:** DETR → transformers enter detection/segmentation  
+- **2020:** [DETR](detr.md) → transformers enter detection/segmentation  
 - **2021–2022:** MaskFormer, Mask2Former → unified segmentation  
 - **2022:** DINO, Mask DINO → strong DETR variants  
-- **2024:** DI-MaskDINO → current SOTA  
+- **2024:** [DI-MaskDINO](di-mask-dino.md) → current SOTA  
+
+---
+
+For a broader evolution of transformer-based detectors, see the [DETR family overview](detr-family.md), and for pre-transformer detection pipelines, see the [R-CNN lineage](rcnn-lineage.md).
 

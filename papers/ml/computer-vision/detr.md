@@ -38,7 +38,7 @@ It’s the *detection counterpart* to ViT’s classification formulation.
    - Each query outputs exactly one box + class.
 
 4. **End-to-End Pipeline**
-   - Unlike Faster R-CNN or YOLO (which need anchors, proposals, and NMS), DETR requires only the backbone + transformer + prediction heads.
+   - Unlike [Faster R-CNN](rcnn-lineage.md) or YOLO (which need anchors, proposals, and NMS), DETR requires only the backbone + transformer + prediction heads.
    - Simplifies the detection pipeline dramatically.
 # Limitations
 ## Slow Convergence
@@ -84,7 +84,7 @@ It’s the *detection counterpart* to ViT’s classification formulation.
   - **MaskFormer (2021):** Extended DETR-like design to segmentation via mask embeddings.
   - **Mask2Former (2022):** Unified semantic, instance, panoptic segmentation with masked attention.
   - **Mask DINO (2022):** Added segmentation branch to DINO.
-  - **DI-MaskDINO (2024):** Balanced optimization for detection + segmentation in the decoder.
+  - **[DI-MaskDINO](di-mask-dino.md) (2024):** Balanced optimization for detection + segmentation in the decoder.
 
 ## Impact
 - Introduced transformers into object detection.

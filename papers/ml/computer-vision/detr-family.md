@@ -56,7 +56,7 @@
 **In short:** By 2019, CNN-based detection and segmentation had matured into very strong, but still **fragmented and heuristic-heavy pipelines**. DETR (2020) disrupted this by introducing **transformers, set prediction, and end-to-end training**, removing the need for anchors, proposals, and NMS.
 
 # DETR family
-## 1. DETR – DEtection TRansformer (Carion et al., 2020)
+## 1. [DETR](detr.md) – DEtection TRansformer (Carion et al., 2020)
 - **Contribution:** First fully end-to-end object detector with a transformer backbone.
 - Replaced anchors, proposals, and NMS with a **set prediction formulation** and **Hungarian matching loss**.
 - Showed transformers can unify detection with direct object queries.
@@ -133,5 +133,6 @@
 - **2024:** DI-MaskDINO → Balanced decoding, SOTA instance segmentation.  
 
 ---
+By 2019 the field was dominated by two-stage detectors like those in the [R-CNN lineage](rcnn-lineage.md) and mature segmentation systems; DETR unified detection and later segmentation, as covered in the [segmentation history](segmentation-dnn-history.md).
 
 
