@@ -59,7 +59,7 @@ Instance segmentation answers: *“Which object instance does this pixel belong 
 **Impact:** Transformer-based models surpassed CNN-based two-stage frameworks.
 ## Current State of the Art (2024–2025)
 - **DI-MaskDINO (2024):** Balanced decoder optimization between detection and segmentation tasks. Improved accuracy on COCO.
-- **Large ViT Backbones (e.g., Swin, DINOv3):** Provide powerful feature encoders for segmentation.
+- **Large [[ViT]] Backbones (e.g., Swin, DINOv3):** Provide powerful feature encoders for segmentation.
 - **SparseInst & Real-Time Models:** Achieve ~40 FPS on COCO with competitive accuracy, important for deployment.
 
 **Summary:**

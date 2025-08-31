@@ -3,14 +3,14 @@
 ## What is DETR?
 - **DETR** reframes object detection as a **direct set prediction problem** using a transformer encoder–decoder architecture.
 - Pipeline:
-  1. **Backbone (ResNet/ViT):** Extract image features.
+  1. **Backbone (ResNet/[[ViT]]):** Extract image features.
   2. **Transformer Encoder:** Applies global self-attention to the feature map.
   3. **Transformer Decoder:** Takes a fixed number of learned **object queries** and predicts class + bounding box for each.
   4. **Hungarian Matching Loss:** One-to-one assignment between predictions and ground truth ensures unique objects.
 
 **Key idea:** No anchors, proposals, or NMS. Detection is end-to-end, learned directly.
 ## Relation to Vision Transformer (ViT)
-- **ViT (Dosovitskiy et al., 2020):**
+- **[[ViT]] (Dosovitskiy et al., 2020):**
   - Pure transformer for image classification.
   - Splits an image into fixed-size patches, embeds them, and feeds them into a transformer encoder.
   - Outputs a class embedding for classification.
