@@ -4,7 +4,7 @@
 Vision-Language-Action (VLA) models extend vision-language architectures by grounding perception and reasoning in **action spaces**. These models connect what they **see** (vision), what they **understand/describe** (language), and what they can **do** (actions in an environment). They are key steps toward embodied AI, robotics, and interactive agents.
 ## Models
 
-- **CLIPort (2021)**  
+- **[[CLIPort]] (2021)**  
   Combined CLIP-style visual-language embeddings with affordance-based manipulation policies. Used in tabletop pick-and-place tasks.
 
 - **SayCan (Google, 2022)**  
@@ -39,7 +39,7 @@ Vision-Language-Action (VLA) models extend vision-language architectures by grou
   Vehicles, drones, and multi-modal decision-making systems benefiting from natural language grounding.
 ## Timeline
 
-- **2021:** CLIPort demonstrates combining CLIP embeddings with robotic actions for manipulation.  
+- **2021:** [[CLIPort]] demonstrates combining CLIP embeddings with robotic actions for manipulation.  
 - **2022:** SayCan introduces LLM planning + robot skills; PaLM-SayCan scales this with a larger LLM.  
 - **2022:** RT-1 proposes Robotic Transformer trained on large robot datasets.  
 - **2023:** RT-2 integrates internet-scale vision-language pretraining with robot actions, enabling generalization from web knowledge.  
@@ -48,6 +48,6 @@ Vision-Language-Action (VLA) models extend vision-language architectures by grou
 - **2025+:** Research expands into foundation VLA models combining massive web-scale data with diverse embodied robot experiences.
 ## Summary
 - Vision-Language-Action models unify **perception, reasoning, and control**.  
-- They evolved from combining CLIP with robot affordances (CLIPort), to **LLM-guided planning** (SayCan, PaLM-SayCan), to **transformer-based generalist robot policies** (RT-1, RT-2, Octo, OpenVLA).  
+- They evolved from combining CLIP with robot affordances ([[CLIPort]]), to **LLM-guided planning** (SayCan, PaLM-SayCan), to **transformer-based generalist robot policies** (RT-1, RT-2, Octo, OpenVLA).  
 - Applications range from **robotics and embodied AI** to **interactive agents** and **autonomous systems**.  
 - The trajectory mirrors NLP and vision: moving from **task-specific models** toward **foundation models** for action in the physical world.
