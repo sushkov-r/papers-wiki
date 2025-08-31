@@ -38,7 +38,7 @@ It’s the *detection counterpart* to ViT’s classification formulation.
    - Each query outputs exactly one box + class.
 
 4. **End-to-End Pipeline**
-   - Unlike [Faster R-CNN](rcnn-lineage.md) or [YOLO](yolo-family) (which need anchors, proposals, and NMS), DETR requires only the backbone + transformer + prediction heads.
+   - Unlike [Faster R-CNN](rcnn-family.md) or [YOLO](yolo-family) (which need anchors, proposals, and NMS), DETR requires only the backbone + transformer + prediction heads.
    - Simplifies the detection pipeline dramatically.
 # Limitations
 ## Slow Convergence

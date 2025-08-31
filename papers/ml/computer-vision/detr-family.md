@@ -1,7 +1,7 @@
 # DETR Family: Evolution of Transformer-Based Object Detection and Segmentation
 ## Pre-DETR (Before 2020): State of the Art in Detection and Segmentation
 
-### 1. Two-Stage Detectors (R-CNN Lineage)
+### 1. Two-Stage Detectors ([R-CNN Lineage](rcnn-family))
 - **R-CNN (2014):** CNN features + region proposals (Selective Search).
 - **Fast R-CNN (2015):** Shared conv features, RoI Pooling, end-to-end multitask loss.
 - **Faster R-CNN (2015):** Introduced Region Proposal Network (RPN), fully learnable pipeline.
@@ -133,6 +133,6 @@
 - **2024:** DI-MaskDINO → Balanced decoding, SOTA instance segmentation.  
 
 ---
-By 2019 the field was dominated by two-stage detectors like those in the [R-CNN lineage](rcnn-lineage.md) and mature segmentation systems; DETR unified detection and later segmentation, as covered in the [segmentation history](segmentation-dnn-history.md).
+By 2019 the field was dominated by two-stage detectors like those in the [R-CNN lineage](rcnn-family.md) and mature segmentation systems; DETR unified detection and later segmentation, as covered in the [segmentation history](segmentation-dnn-history.md).
 
 
