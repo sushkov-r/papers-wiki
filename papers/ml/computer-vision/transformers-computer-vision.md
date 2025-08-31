@@ -1,4 +1,4 @@
-# History of Transformers in Computer Vision
+# Application of Transformers in Computer Vision
 
 ## Origins: Attention and NLP (2017–2019)
 - **Transformer (Vaswani et al., 2017):** Introduced self-attention for sequence modeling (NLP).
