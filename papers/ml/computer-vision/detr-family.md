@@ -15,7 +15,7 @@
 ---
 
 ### 2. One-Stage Detectors
-- **YOLO (2016 → v3 in 2018):** Real-time detection by regressing boxes and classes directly on a grid.
+- **[YOLO](yolo-family) (2016 → v3 in 2018):** Real-time detection by regressing boxes and classes directly on a grid.
 - **SSD (2016):** Multi-scale feature maps with default anchor boxes.
 - **RetinaNet (2017):** Introduced **Focal Loss** to handle extreme class imbalance, achieving strong accuracy while staying single-stage.
 
@@ -49,7 +49,7 @@
 ### Overall Landscape by 2019
 - **Mask R-CNN** → default for instance segmentation.  
 - **Faster R-CNN / Cascade R-CNN** → state-of-the-art two-stage detection.  
-- **RetinaNet & YOLOv3** → strong single-stage detectors.  
+- **RetinaNet & [YOLOv3](yolo-family)** → strong single-stage detectors.  
 - **DeepLabv3+** → state-of-the-art semantic segmentation.  
 - **Hybrid Task Cascade, PANet, YOLACT** → refinements and efficiency gains.  
 
