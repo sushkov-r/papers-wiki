@@ -5,40 +5,20 @@ Vision-Language-Action (VLA) models extend vision-language architectures by grou
 ## Models
 
 - **[[CLIPort]] (2021)**  
-  Combined CLIP-style visual-language embeddings with affordance-based manipulation policies. Used in tabletop pick-and-place tasks.
-
+  Combined [[CLIP]]-style visual-language embeddings with [affordance-based manipulation policies](TransporterNetworks). Used in tabletop pick-and-place tasks.
 - **SayCan (Google, 2022)**  
   Paired a large language model with visual grounding to plan high-level goals, then delegated execution to low-level robot skills. Demonstrated robots executing language commands in real-world kitchens.
-
 - **PaLM-SayCan (2022)**  
   Extended SayCan using PaLM LLM. Provided better reasoning for task decomposition and grounding in affordance functions.
-
 - **RT-1 (Google, 2022)**  
   A transformer-based robot policy trained on large-scale data of robot interactions. Input: images + language command. Output: low-level robot actions. Introduced the concept of **robotic transformer policies**.
-
 - **RT-2 (Google DeepMind, 2023)**  
   Vision-Language-Action model trained on both internet-scale vision-language data and robot action data. Enabled robots to generalize from web knowledge to novel real-world tasks (e.g., "throw away the trash if it’s banana peel").
-
 - **Octo (2023–2024)**  
   Open-source generalist VLA model trained across many robot platforms and datasets. Focused on reproducibility and community use.
-
 - **OpenVLA (2024)**  
   Open-source alternative to RT-2, built to unify vision-language-action datasets into a generalist policy.
-## Applications
-
-- **Robotics**  
-  Instruction-following for manipulation, navigation, cleaning, cooking, and other household or industrial tasks.
-
-- **Embodied AI and Simulation**  
-  Agents in simulated environments (e.g., Habitat, MineDojo) that take natural language commands and act.
-
-- **Interactive Agents**  
-  Virtual assistants and avatars that can perceive images, reason with language, and interact with environments through action APIs.
-
-- **Autonomous Systems**  
-  Vehicles, drones, and multi-modal decision-making systems benefiting from natural language grounding.
 ## Timeline
-
 - **2021:** [[CLIPort]] demonstrates combining CLIP embeddings with robotic actions for manipulation.  
 - **2022:** SayCan introduces LLM planning + robot skills; PaLM-SayCan scales this with a larger LLM.  
 - **2022:** RT-1 proposes Robotic Transformer trained on large robot datasets.  
