@@ -16,7 +16,7 @@ Vision-Language-Action (VLA) models extend vision-language architectures by grou
   Vision-Language-Action model trained on both internet-scale vision-language data and robot action data. Enabled robots to generalize from web knowledge to novel real-world tasks (e.g., "throw away the trash if it’s banana peel").
 - **Octo (2023–2024)**  
   Open-source generalist VLA model trained across many robot platforms and datasets. Focused on reproducibility and community use.
-- **OpenVLA (2024)**  
+- **[[OpenVLA]] (2024)**  
   Open-source alternative to RT-2, built to unify vision-language-action datasets into a generalist policy.
 ## Timeline
 - **2021:** [[CLIPort]] demonstrates combining CLIP embeddings with robotic actions for manipulation.  
@@ -24,7 +24,7 @@ Vision-Language-Action (VLA) models extend vision-language architectures by grou
 - **2022:** RT-1 proposes Robotic Transformer trained on large robot datasets.  
 - **2023:** RT-2 integrates internet-scale vision-language pretraining with robot actions, enabling generalization from web knowledge.  
 - **2023–2024:** Octo released as open-source large-scale VLA model.  
-- **2024:** OpenVLA consolidates datasets into a reproducible, open VLA model.  
+- **2024:** [[OpenVLA]] consolidates datasets into a reproducible, open VLA model.  
 - **2025+:** Research expands into foundation VLA models combining massive web-scale data with diverse embodied robot experiences.
 ## Summary
 - Vision-Language-Action models unify **perception, reasoning, and control**.  
