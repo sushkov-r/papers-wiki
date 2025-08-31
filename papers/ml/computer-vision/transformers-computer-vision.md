@@ -9,11 +9,11 @@
 
 ## First CV Applications (2019–2020)
 - **Image Transformer (Parmar et al., 2018):** Applied self-attention for image generation (small patches).
-- **ViT – Vision Transformer (Dosovitskiy et al., 2020):**
+- **[[ViT]] – Vision Transformer (Dosovitskiy et al., 2020):**
   - Broke image into fixed-size patches, fed into standard transformer encoder.
   - Trained on large datasets (JFT-300M), achieved strong classification results.
   - Showed transformers can replace CNNs for image classification.
-- **DETR – DEtection TRansformer (Carion et al., 2020):**
+- **[DETR](detr) – DEtection TRansformer (Carion et al., 2020):**
   - Applied transformer encoder–decoder to object detection.
   - Introduced set prediction, object queries, Hungarian matching.
   - First fully end-to-end detector without anchors or NMS.
@@ -41,7 +41,7 @@
   - Queries represented as anchor boxes, refined progressively.
 - **DN-DETR (Li et al., 2022):**
   - Denoising task to stabilize training.
-- **DINO (Zhang et al., 2022):**
+- **[DINO](detr-family) (Zhang et al., 2022):**
   - Combined DAB and DN ideas.
   - Strong DETR baseline with faster convergence.
 - **Mask DINO (Li et al., 2022):**
