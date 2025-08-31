@@ -72,7 +72,7 @@
   - State-of-the-art in instance segmentation.
 - **YOLO-World (2024):**
   - Brought open-vocabulary detection to [YOLO](yolo-family) using CLIP embeddings.
-- **Vision-Language-Action Models (2023–2025):**
+- **[[Vision-Language-Action Models]] (2023–2025):**
   - Integrate vision transformers with LLMs (e.g., Flamingo, Kosmos, GPT-4V).
   - Move toward **multi-modal, multi-task perception and reasoning**.
 
