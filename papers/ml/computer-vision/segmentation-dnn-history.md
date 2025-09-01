@@ -50,7 +50,7 @@ Instance segmentation answers: *“Which object instance does this pixel belong 
 - **Mask2Former (2022):** Improved MaskFormer with masked attention; strong across semantic, instance, and panoptic segmentation.
 
 **Impact:** Transformers unify segmentation tasks under a clean set-based formulation.
-## DETR Variants and DINO Family (2021–2023)
+## DETR Variants (2021–2023)
 - **Conditional / DAB-DETR (2021):** Introduced spatially meaningful object queries (anchors).
 - **DN-DETR (2022):** Added denoising training for stability.
 - **DINO (2022):** Combined DN-DETR and DAB-DETR with iterative refinement and mixed query selection. Stronger performance, faster convergence.
@@ -73,9 +73,4 @@ Instance segmentation answers: *“Which object instance does this pixel belong 
 - **2018–2020:** PANet, YOLACT, SOLO → refinements & one-stage efficiency  
 - **2020:** [DETR](DETR.md) → transformers enter detection/segmentation  
 - **2021–2022:** MaskFormer, Mask2Former → unified segmentation  
-- **2022:** DINO, Mask DINO → strong DETR variants
-
----
-
-For a broader evolution of transformer-based detectors, see the [DETR family overview](DETR-family.md), and for pre-transformer detection pipelines, see the [R-CNN lineage](R-CNN-family.md).
-
+- **2022:** DINO, Mask DINO → strong DETR variants.

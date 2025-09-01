@@ -73,7 +73,7 @@ The lineage surpassed older hand-crafted pipelines (HOG, DPM, sliding windows) a
 - **2015:** Faster R-CNN → learned proposals via RPN.
 - **2017:** Mask R-CNN → added segmentation, RoIAlign.
 - **2018+:** Cascade R-CNN, PANet, HTC → refinements.
-- **2020+:** [DETR family](DETR-family.md) → shift to transformers, anchor-free, set-based detection.
+- **2020+:** [DETR family](DETR.md) → shift to transformers, anchor-free, set-based detection.
 
 ---
 

@@ -41,7 +41,7 @@
   - Queries represented as anchor boxes, refined progressively.
 - **DN-DETR (Li et al., 2022):**
   - Denoising task to stabilize training.
-- **[DINO](DETR-family.md) (Zhang et al., 2022):**
+- **[DINO](DETR.md) (Zhang et al., 2022):**
   - Combined DAB and DN ideas.
   - Strong DETR baseline with faster convergence.
 - **Mask DINO (Li et al., 2022):**
