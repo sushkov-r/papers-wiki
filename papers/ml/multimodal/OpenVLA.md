@@ -9,8 +9,8 @@ OpenVLA (2024) is a fully open-source Vision-Language-Action model for robotics.
   - Natural language instructions.  
 
 - **Model architecture:**  
-  - Visual encoder (frozen [[DINOv2]] backbone) extracts dense tokens from the image.  
-  - Text encoder (frozen language model, [[Llama]]) encodes the instruction.  
+  - Visual encoder (frozen [DINOv2](Requests#DINOv2) backbone) extracts dense tokens from the image.  
+  - Text encoder (frozen language model, [Llama](Requests#Llama)) encodes the instruction.  
   - Tokens are concatenated and fed into a multimodal transformer.  
   - The transformer autoregressively predicts action tokens.  
 
