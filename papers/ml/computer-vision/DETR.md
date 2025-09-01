@@ -84,7 +84,6 @@ It’s the *detection counterpart* to ViT’s classification formulation.
   - **MaskFormer (2021):** Extended DETR-like design to segmentation via mask embeddings.
   - **Mask2Former (2022):** Unified semantic, instance, panoptic segmentation with masked attention.
   - **Mask DINO (2022):** Added segmentation branch to DINO.
-  - **[DI-MaskDINO](di-mask-dino.md) (2024):** Balanced optimization for detection + segmentation in the decoder.
 
 ## Impact
 - Introduced transformers into object detection.
