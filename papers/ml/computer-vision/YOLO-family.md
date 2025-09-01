@@ -3,7 +3,7 @@
 ## Prior Work
 Before YOLO (2016), object detection was dominated by:
 - **Sliding-window CNNs (2013–2014):** Classify cropped image patches at different scales.
-- [**R-CNN](rcnn-family) (2014):** Region proposals + CNN classification.
+- [**R-CNN](R-CNN-family.md) (2014):** Region proposals + CNN classification.
 - **Fast/Faster R-CNN (2015):** Shared features, Region Proposal Network.
 - **Single Shot Detectors (SSD, 2016):** One-stage detector using multi-scale anchors.
 - **Motivation for YOLO:** All of these were accurate but too slow for real-time use in robotics and vision applications.
@@ -39,7 +39,7 @@ Before YOLO (2016), object detection was dominated by:
 - **Limitations:**
   - Struggles with small/overlapping objects.
   - Coarse grid → limited spatial resolution.
-  - Lower accuracy compared to [Faster R-CNN](rcnn-family).
+  - Lower accuracy compared to [Faster R-CNN](R-CNN-family.md).
 
 ---
 

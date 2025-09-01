@@ -1,7 +1,7 @@
 # DETR Family: Evolution of Transformer-Based Object Detection and Segmentation
 ## Pre-DETR (Before 2020): State of the Art in Detection and Segmentation
 
-### Two-Stage Detectors ([R-CNN Lineage](rcnn-family))
+### Two-Stage Detectors ([R-CNN Lineage](R-CNN-family.md))
 - **R-CNN (2014):** CNN features + region proposals (Selective Search).
 - **Fast R-CNN (2015):** Shared conv features, RoI Pooling, end-to-end multitask loss.
 - **Faster R-CNN (2015):** Introduced Region Proposal Network (RPN), fully learnable pipeline.
@@ -13,7 +13,7 @@
 **Weaknesses:** Complex pipelines (anchors, proposals, NMS), relatively slow.
 
 ### One-Stage Detectors
-- **[YOLO](yolo-family) (2016 → v3 in 2018):** Real-time detection by regressing boxes and classes directly on a grid.
+- **[YOLO](YOLO-family.md) (2016 → v3 in 2018):** Real-time detection by regressing boxes and classes directly on a grid.
 - **SSD (2016):** Multi-scale feature maps with default anchor boxes.
 - **RetinaNet (2017):** Introduced **Focal Loss** to handle extreme class imbalance, achieving strong accuracy while staying single-stage.
 
@@ -41,7 +41,7 @@
 ### Overall Landscape by 2019
 - **Mask R-CNN** → default for instance segmentation.  
 - **Faster R-CNN / Cascade R-CNN** → state-of-the-art two-stage detection.  
-- **RetinaNet & [YOLOv3](yolo-family)** → strong single-stage detectors.  
+- **RetinaNet & [YOLOv3](YOLO-family.md)** → strong single-stage detectors.  
 - **DeepLabv3+** → state-of-the-art semantic segmentation.  
 - **Hybrid Task Cascade, PANet, YOLACT** → refinements and efficiency gains.  
 

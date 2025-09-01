@@ -31,7 +31,7 @@ Instance segmentation answers: *“Which object instance does this pixel belong 
 
 **Key contribution:** Showed CNNs can produce dense segmentation maps, not just classification.
 ## Two-Stage Instance Segmentation (2017)
-- **[Mask R-CNN](rcnn-family) (2017):** Extension of Faster R-CNN. Adds:
+- **[Mask R-CNN](R-CNN-family.md) (2017):** Extension of Faster R-CNN. Adds:
   - A **parallel mask branch** for per-instance binary masks.
   - **RoIAlign** (replacing RoI Pooling) for pixel-accurate alignment.
 - Flexible and extensible (later adapted for keypoints, human pose).
@@ -69,7 +69,7 @@ Instance segmentation answers: *“Which object instance does this pixel belong 
 ## Timeline Overview
 - **2014:** FCN → first deep segmentation  
 - **2015:** U-Net → encoder–decoder revolution  
-- **2017:** [Mask R-CNN](rcnn-family) → mainstream instance segmentation  
+- **2017:** [Mask R-CNN](R-CNN-family.md) → mainstream instance segmentation  
 - **2018–2020:** PANet, YOLACT, SOLO → refinements & one-stage efficiency  
 - **2020:** [DETR](DETR.md) → transformers enter detection/segmentation  
 - **2021–2022:** MaskFormer, Mask2Former → unified segmentation  
@@ -77,5 +77,5 @@ Instance segmentation answers: *“Which object instance does this pixel belong 
 
 ---
 
-For a broader evolution of transformer-based detectors, see the [DETR family overview](DETR-family.md), and for pre-transformer detection pipelines, see the [R-CNN lineage](rcnn-family.md).
+For a broader evolution of transformer-based detectors, see the [DETR family overview](DETR-family.md), and for pre-transformer detection pipelines, see the [R-CNN lineage](R-CNN-family.md).
 

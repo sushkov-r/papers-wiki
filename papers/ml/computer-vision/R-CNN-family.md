@@ -8,7 +8,7 @@ Faster R-CNN (2015) solved this by adding the Region Proposal Network (RPN), cre
 
 Mask R-CNN (2017) extended Faster R-CNN with RoIAlign and a parallel mask head, making instance segmentation practical and also extensible to keypoints and pose tasks.
 
-The lineage surpassed older hand-crafted pipelines (HOG, DPM, sliding windows) and set the bar for accuracy. Over time, however, it was superseded by one-stage detectors ([YOLO](yolo-family), RetinaNet) for speed, and later by transformer-based models ([DETR](DETR.md), Mask2Former, Mask DINO) for end-to-end training and unified segmentation frameworks.
+The lineage surpassed older hand-crafted pipelines (HOG, DPM, sliding windows) and set the bar for accuracy. Over time, however, it was superseded by one-stage detectors ([YOLO](YOLO-family.md), RetinaNet) for speed, and later by transformer-based models ([DETR](DETR.md), Mask2Former, Mask DINO) for end-to-end training and unified segmentation frameworks.
 
 ## 1. R-CNN (2014)
 - **Pipeline:**
