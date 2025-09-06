@@ -7,9 +7,9 @@ Use the navigation pane on the left to explore papers and notes organized by top
 To curate and summarize key ML research in a collaborative, accessible format, making it easier to keep track of rapidly evolving areas.
 
 ## Active Topics
-- [Vision-Language-Action Models](Vision-Language-Action-Models)  
+- [Vision-Language-Action Models](Vision-Language-Action-Models.md)  
 - Foundation models for vision ([DINO](DINO))  
-- Multimodal models ([CLIP](CLIP), [SigLIP](SigLIP))  
+- Multimodal models ([CLIP](CLIP), [SigLIP](SigLIP.md))  
 
 ## Contributing
 We welcome contributions of all kinds — new notes, corrections, or extensions.  

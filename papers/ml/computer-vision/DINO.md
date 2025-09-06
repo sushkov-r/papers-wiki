@@ -1,7 +1,9 @@
 # Emerging Properties in Self-Supervised Vision Transformers (DINO)
+### Notes
+*Not to be confused with [DINO (a variant of DETR)](DETR.md).*
 
 ## Overview
-DINO introduced a simple but powerful self-supervised learning approach for [Vision Transformers (ViTs)](ViT). The method trains a student network to predict the output of a teacher network, without any labels, by aligning their representations of different augmented views of the same image. Remarkably, DINO shows that ViTs trained this way learn highly semantic and interpretable features.
+DINO introduced a simple but powerful self-supervised learning approach for [Vision Transformers (ViTs)](ViT.md). The method trains a student network to predict the output of a teacher network, without any labels, by aligning their representations of different augmented views of the same image. Remarkably, DINO shows that ViTs trained this way learn highly semantic and interpretable features.
 
 ## Key Innovations
 - **Self-distillation without labels**: The model trains a student network to match the teacher’s soft predictions, with no ground-truth supervision.
@@ -34,3 +36,39 @@ This forces the student to align local and global views into a shared representa
 - Showed that **ViTs + self-distillation** can learn semantic representations without labels.
 - Provided a foundation for later self-supervised ViT approaches (e.g., DINOv2, MAE).
 - Popularized the use of ViT features for transfer learning and downstream tasks.
+
+# DINOv2
+
+## Data
+- **DINO (2021):** Trained on ImageNet without labels (1.3M images).  
+- **DINOv2 (2023):** Trained on a **curated dataset of 142M images** (from a pool of 1.2B).  
+  - Applied **automatic filtering, deduplication, and quality control** to remove noisy web data.  
+  - This scaling of both size and quality is a key driver of performance.
+
+## Architecture
+- **DINO:** Experiments mostly with ViT-Small and ViT-Base.  
+- **DINOv2:** Trained **much larger ViTs** (up to ViT-G/14 with ~1B parameters).  
+  - Showed clear **scaling laws** for self-supervised vision transformers.
+
+## Training Recipe
+- **DINO:** Introduced self-distillation (student–teacher EMA, centering, sharpening) but relatively unstable at large scale.  
+- **DINOv2:** Refined recipe:  
+  - Improved **teacher sharpening schedule** (temperature tuning).  
+  - Better **normalization and loss scaling**.  
+  - More robust multi-crop strategy.  
+  - Enabled training of giant ViTs without collapse.
+
+## Features and Transferability
+- **DINO:** Learned semantic features useful for linear probing on ImageNet (~75% top-1 with ViT-B).  
+- **DINOv2:** Produces **foundation-model-level features**:  
+  - Stronger linear probe results (86.8% top-1 with ViT-L, 88.1% with ViT-G).  
+  - Features transfer seamlessly to downstream tasks (detection, segmentation) without fine-tuning.  
+  - Introduced **scale-invariant features** (same embedding regardless of image size/resolution).  
+
+## Overall
+- **DINO was a proof of concept**: self-distillation works for ViTs and yields semantic representations.  
+- **DINOv2 is a foundation model**:  
+  - Trained on huge curated data.  
+  - Uses stabilized training recipe.  
+  - Scales to very large models.  
+  - Produces universal, robust features for many tasks.

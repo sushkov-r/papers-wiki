@@ -74,3 +74,6 @@ Instance segmentation answers: *“Which object instance does this pixel belong 
 - **2020:** [DETR](DETR.md) → transformers enter detection/segmentation  
 - **2021–2022:** MaskFormer, Mask2Former → unified segmentation  
 - **2022:** DINO, Mask DINO → strong DETR variants.
+
+# TODO
+Not comprehensive, DI-MaskDINO is not interesting. Improve signal to noise of this article.
